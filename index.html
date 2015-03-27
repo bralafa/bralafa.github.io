@@ -1,14 +1,36 @@
 <!DOCTYPE html>
-<html lang="en"> 
-<body>
+<html lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<title>Is it time to go home yet?</title>
+		<meta name="generator" content="Bootply" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<!--[if lt IE 9]>
+			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<link href="css/styles.css" rel="stylesheet">
+	</head>
+	<body>
 
-    <div style="width:800px; margin:0 auto;">
 
-        <h1>Is it time to go home yet?!</h1>
-
-        <span id="date"></span>
-    </div>
-    <script>
+<div class="container">
+  
+  <div class="text-center">
+    <h1>Is it time to go home yet???</h1>
+    <p class="lead"></p>
+        
+  </div>
+    <div class="text-center">
+   <h2><span id="date"></span></h2></div>
+    
+  
+</div><!-- /.container -->
+	<!-- script references -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+<script>
     var d = new Date()
     var n = d.getHours();
     var c = d.getDay();
@@ -22,5 +44,5 @@
     
     
     </script>
-</body>
+	</body>
 </html>

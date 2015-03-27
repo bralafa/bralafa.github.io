@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<body>
+
+    <div style="width:800px; margin:0 auto;">
+
+        <h1>Is it time to go home yet?!</h1>
+
+        <span id="date"></span>
+    </div>
+    <script>
+    var d = new Date()
+    var n = d.getHours();
+    var c = d.getDay();
+        if (n <17) {
+            document.getElementById('date').innerHTML = "Nope";
+        }
+        else {
+            document.getElementById('date').innerHTML = "It's time to go home!";
+        }
+    
+    
+    
+    </script>
+</body>
+</html>
