@@ -49,7 +49,10 @@
     var c = d.getDay();
     var answers = ['So close you can feel it, eh?', 'Na', 'Hell no! Get back to work!', 'deeznuts'];
     var random = answers[Math.floor(Math.random() * answers.length)];
-        if (n <19) {
+        if (c == 6 || c == 0) {
+        document.getElementById('date').innerHTML = "It's the weekend!";
+    }
+    else if (n <17) {
             document.getElementById('date').innerHTML = random;
         }
         else {
